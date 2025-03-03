@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+:root {
+    --YusufPamidorRangi: #FC004A;
+
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+.header-wrapper {
+    gap: 30px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: black;
+}
+
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.button-header {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--YusufPamidorRangi);
+    color: #fff;
+}
+
+
+.left-header {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.onas {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 814px) {
+    .left-header {
+        gap: 5px;
+    }
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (max-width: 662px) {
+    .left-header {
+        gap: 5px;
+    }
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+
+    .header-list {
+        display: none;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .onas {
+        display: block;
+    }
+
+
+}
+
+.mainimg-boss {
+    width: 976;
+    height: 293.6600036621094;
+    top: 134px;
+    left: 24px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-start {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 105px;
+    align-items: center;
+    justify-content: center;
+}
+
+.secstart-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 300ms all ease;
+}
+
+.secstart-support:hover {
+    transition: 300ms all ease;
+    background-color: var(--YusufPamidorRangi);
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    margin-top: 8px;
+}
+
+.main-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 183px;
+    background-color: var(--YusufPamidorRangi);
+    border-radius: 9999px;
+    border: none;
+    transition: 300ms all ease;
+}
+
+.main-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 300ms all ease;
+}
+
+.secstart-menu {
+    font-size: 32px;
+    padding: 15px 0;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+@media only screen and(max-width:1078px){
+
+}
